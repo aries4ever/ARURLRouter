@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  FirstDetailViewController.h
 //  ARURLRouter
 //
 //  Created by liukaibo on 2020/6/4.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface FirstDetailViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
