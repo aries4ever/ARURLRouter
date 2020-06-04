@@ -7,7 +7,9 @@
 
 ### Scheme Register
 *1.Open your target page such as FirstDetailViewController.m.
+
 *2.Import "ARURLRouter.h" in your FirstDetailViewController.
+
 *3.Register for scheme in method + (void)load as followed.
 
 ```Objective-C
@@ -27,6 +29,7 @@
 
 ### Events trigger
 *1.Please import "ARURLRouter.h" in your viewcontroller.m.
+
 *2.Then add openPage:Params to the tap or click events.
 
 ```Objective-C
