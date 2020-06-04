@@ -15,6 +15,7 @@
 
 @implementation FirstDetailViewController
 
+#pragma mark - scheme register
 + (void)load {
     [[ARURLRouter routerManager] registerScheme:@"detail://" processBlock:^(NSDictionary * _Nonnull params) {
         UINavigationController *navc = (UINavigationController *)[params objectForKey:@"controller"];
@@ -25,6 +26,7 @@
     }];
 }
 
+#pragma mark - View lifecycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor yellowColor];
