@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F5C84F62488EACD00D7F6DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C84F52488EACD00D7F6DC /* AppDelegate.m */; };
+		7F5C84F92488EACD00D7F6DC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C84F82488EACD00D7F6DC /* SceneDelegate.m */; };
+		7F5C84FC2488EACD00D7F6DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C84FB2488EACD00D7F6DC /* ViewController.m */; };
+		7F5C84FF2488EACD00D7F6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F5C84FD2488EACD00D7F6DC /* Main.storyboard */; };
+		7F5C85012488EACE00D7F6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F5C85002488EACE00D7F6DC /* Assets.xcassets */; };
+		7F5C85042488EACE00D7F6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F5C85022488EACE00D7F6DC /* LaunchScreen.storyboard */; };
+		7F5C85072488EACE00D7F6DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C85062488EACE00D7F6DC /* main.m */; };
+		7F5C85112488EACE00D7F6DC /* ARURLRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C85102488EACE00D7F6DC /* ARURLRouterTests.m */; };
+		7F5C851C2488EACF00D7F6DC /* ARURLRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C851B2488EACF00D7F6DC /* ARURLRouterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F5C850D2488EACE00D7F6DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F5C84E92488EACD00D7F6DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F5C84F02488EACD00D7F6DC;
+			remoteInfo = ARURLRouter;
+		};
+		7F5C85182488EACF00D7F6DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F5C84E92488EACD00D7F6DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F5C84F02488EACD00D7F6DC;
+			remoteInfo = ARURLRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F5C84F12488EACD00D7F6DC /* ARURLRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARURLRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C84F42488EACD00D7F6DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F5C84F52488EACD00D7F6DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F5C84F72488EACD00D7F6DC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7F5C84F82488EACD00D7F6DC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7F5C84FA2488EACD00D7F6DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F5C84FB2488EACD00D7F6DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F5C84FE2488EACD00D7F6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F5C85002488EACE00D7F6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F5C85032488EACE00D7F6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F5C85052488EACE00D7F6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5C85062488EACE00D7F6DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F5C850C2488EACE00D7F6DC /* ARURLRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARURLRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C85102488EACE00D7F6DC /* ARURLRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARURLRouterTests.m; sourceTree = "<group>"; };
+		7F5C85122488EACE00D7F6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5C85172488EACF00D7F6DC /* ARURLRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARURLRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C851B2488EACF00D7F6DC /* ARURLRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARURLRouterUITests.m; sourceTree = "<group>"; };
+		7F5C851D2488EACF00D7F6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F5C84EE2488EACD00D7F6DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C85092488EACE00D7F6DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C85142488EACF00D7F6DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F5C84E82488EACD00D7F6DC = {
+			isa = PBXGroup;
+			children = (
+				7F5C84F32488EACD00D7F6DC /* ARURLRouter */,
+				7F5C850F2488EACE00D7F6DC /* ARURLRouterTests */,
+				7F5C851A2488EACF00D7F6DC /* ARURLRouterUITests */,
+				7F5C84F22488EACD00D7F6DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F5C84F22488EACD00D7F6DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C84F12488EACD00D7F6DC /* ARURLRouter.app */,
+				7F5C850C2488EACE00D7F6DC /* ARURLRouterTests.xctest */,
+				7F5C85172488EACF00D7F6DC /* ARURLRouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F5C84F32488EACD00D7F6DC /* ARURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C84F42488EACD00D7F6DC /* AppDelegate.h */,
+				7F5C84F52488EACD00D7F6DC /* AppDelegate.m */,
+				7F5C84F72488EACD00D7F6DC /* SceneDelegate.h */,
+				7F5C84F82488EACD00D7F6DC /* SceneDelegate.m */,
+				7F5C84FA2488EACD00D7F6DC /* ViewController.h */,
+				7F5C84FB2488EACD00D7F6DC /* ViewController.m */,
+				7F5C84FD2488EACD00D7F6DC /* Main.storyboard */,
+				7F5C85002488EACE00D7F6DC /* Assets.xcassets */,
+				7F5C85022488EACE00D7F6DC /* LaunchScreen.storyboard */,
+				7F5C85052488EACE00D7F6DC /* Info.plist */,
+				7F5C85062488EACE00D7F6DC /* main.m */,
+			);
+			path = ARURLRouter;
+			sourceTree = "<group>";
+		};
+		7F5C850F2488EACE00D7F6DC /* ARURLRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C85102488EACE00D7F6DC /* ARURLRouterTests.m */,
+				7F5C85122488EACE00D7F6DC /* Info.plist */,
+			);
+			path = ARURLRouterTests;
+			sourceTree = "<group>";
+		};
+		7F5C851A2488EACF00D7F6DC /* ARURLRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C851B2488EACF00D7F6DC /* ARURLRouterUITests.m */,
+				7F5C851D2488EACF00D7F6DC /* Info.plist */,
+			);
+			path = ARURLRouterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F5C84F02488EACD00D7F6DC /* ARURLRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5C85202488EACF00D7F6DC /* Build configuration list for PBXNativeTarget "ARURLRouter" */;
+			buildPhases = (
+				7F5C84ED2488EACD00D7F6DC /* Sources */,
+				7F5C84EE2488EACD00D7F6DC /* Frameworks */,
+				7F5C84EF2488EACD00D7F6DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARURLRouter;
+			productName = ARURLRouter;
+			productReference = 7F5C84F12488EACD00D7F6DC /* ARURLRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F5C850B2488EACE00D7F6DC /* ARURLRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5C85232488EACF00D7F6DC /* Build configuration list for PBXNativeTarget "ARURLRouterTests" */;
+			buildPhases = (
+				7F5C85082488EACE00D7F6DC /* Sources */,
+				7F5C85092488EACE00D7F6DC /* Frameworks */,
+				7F5C850A2488EACE00D7F6DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F5C850E2488EACE00D7F6DC /* PBXTargetDependency */,
+			);
+			name = ARURLRouterTests;
+			productName = ARURLRouterTests;
+			productReference = 7F5C850C2488EACE00D7F6DC /* ARURLRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F5C85162488EACF00D7F6DC /* ARURLRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5C85262488EACF00D7F6DC /* Build configuration list for PBXNativeTarget "ARURLRouterUITests" */;
+			buildPhases = (
+				7F5C85132488EACF00D7F6DC /* Sources */,
+				7F5C85142488EACF00D7F6DC /* Frameworks */,
+				7F5C85152488EACF00D7F6DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F5C85192488EACF00D7F6DC /* PBXTargetDependency */,
+			);
+			name = ARURLRouterUITests;
+			productName = ARURLRouterUITests;
+			productReference = 7F5C85172488EACF00D7F6DC /* ARURLRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F5C84E92488EACD00D7F6DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = liukaibo;
+				TargetAttributes = {
+					7F5C84F02488EACD00D7F6DC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					7F5C850B2488EACE00D7F6DC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7F5C84F02488EACD00D7F6DC;
+					};
+					7F5C85162488EACF00D7F6DC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7F5C84F02488EACD00D7F6DC;
+					};
+				};
+			};
+			buildConfigurationList = 7F5C84EC2488EACD00D7F6DC /* Build configuration list for PBXProject "ARURLRouter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F5C84E82488EACD00D7F6DC;
+			productRefGroup = 7F5C84F22488EACD00D7F6DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F5C84F02488EACD00D7F6DC /* ARURLRouter */,
+				7F5C850B2488EACE00D7F6DC /* ARURLRouterTests */,
+				7F5C85162488EACF00D7F6DC /* ARURLRouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F5C84EF2488EACD00D7F6DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C85042488EACE00D7F6DC /* LaunchScreen.storyboard in Resources */,
+				7F5C85012488EACE00D7F6DC /* Assets.xcassets in Resources */,
+				7F5C84FF2488EACD00D7F6DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C850A2488EACE00D7F6DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C85152488EACF00D7F6DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F5C84ED2488EACD00D7F6DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C84FC2488EACD00D7F6DC /* ViewController.m in Sources */,
+				7F5C84F62488EACD00D7F6DC /* AppDelegate.m in Sources */,
+				7F5C85072488EACE00D7F6DC /* main.m in Sources */,
+				7F5C84F92488EACD00D7F6DC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C85082488EACE00D7F6DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C85112488EACE00D7F6DC /* ARURLRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5C85132488EACF00D7F6DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C851C2488EACF00D7F6DC /* ARURLRouterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F5C850E2488EACE00D7F6DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F5C84F02488EACD00D7F6DC /* ARURLRouter */;
+			targetProxy = 7F5C850D2488EACE00D7F6DC /* PBXContainerItemProxy */;
+		};
+		7F5C85192488EACF00D7F6DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F5C84F02488EACD00D7F6DC /* ARURLRouter */;
+			targetProxy = 7F5C85182488EACF00D7F6DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F5C84FD2488EACD00D7F6DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F5C84FE2488EACD00D7F6DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F5C85022488EACE00D7F6DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F5C85032488EACE00D7F6DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F5C851E2488EACF00D7F6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F5C851F2488EACF00D7F6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F5C85212488EACF00D7F6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUYZCARXCF;
+				INFOPLIST_FILE = ARURLRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aries4u.ARURLRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F5C85222488EACF00D7F6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUYZCARXCF;
+				INFOPLIST_FILE = ARURLRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aries4u.ARURLRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F5C85242488EACF00D7F6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUYZCARXCF;
+				INFOPLIST_FILE = ARURLRouterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aries4u.ARURLRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARURLRouter.app/ARURLRouter";
+			};
+			name = Debug;
+		};
+		7F5C85252488EACF00D7F6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUYZCARXCF;
+				INFOPLIST_FILE = ARURLRouterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aries4u.ARURLRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARURLRouter.app/ARURLRouter";
+			};
+			name = Release;
+		};
+		7F5C85272488EACF00D7F6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUYZCARXCF;
+				INFOPLIST_FILE = ARURLRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aries4u.ARURLRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARURLRouter;
+			};
+			name = Debug;
+		};
+		7F5C85282488EACF00D7F6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUYZCARXCF;
+				INFOPLIST_FILE = ARURLRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aries4u.ARURLRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARURLRouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F5C84EC2488EACD00D7F6DC /* Build configuration list for PBXProject "ARURLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5C851E2488EACF00D7F6DC /* Debug */,
+				7F5C851F2488EACF00D7F6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5C85202488EACF00D7F6DC /* Build configuration list for PBXNativeTarget "ARURLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5C85212488EACF00D7F6DC /* Debug */,
+				7F5C85222488EACF00D7F6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5C85232488EACF00D7F6DC /* Build configuration list for PBXNativeTarget "ARURLRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5C85242488EACF00D7F6DC /* Debug */,
+				7F5C85252488EACF00D7F6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5C85262488EACF00D7F6DC /* Build configuration list for PBXNativeTarget "ARURLRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5C85272488EACF00D7F6DC /* Debug */,
+				7F5C85282488EACF00D7F6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F5C84E92488EACD00D7F6DC /* Project object */;
+}
